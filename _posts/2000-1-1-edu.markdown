@@ -10,5 +10,4 @@ description: 2015-2020
 * University of California Riverside
 * Thesis: Atomistic Modeling of Amorphous Materials
 * Advisor: Dr. Peter Alex Greaney
-* Fellowships: NSF Graduate Research Fellowship (2017-2020), NASA MIRO FIELDS Graduate Student Fellowship (2016-2017)
  
