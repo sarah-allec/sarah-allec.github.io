@@ -2,7 +2,7 @@
 layout: default
 img: Master.JPG
 category: Education
-title: Masters in Materials Science & Engineering
+title: M.S. in Materials Science & Engineering
 description: |
 ---
 
