@@ -2,13 +2,12 @@
 layout: default
 img: rice.JPG
 category: Education
-title: Bachelor's in Biological Sciences
+title: B.S. in Applied Mathematics (Physics)
 description: |
 ---
 
-* __2005 - 2010__
-* Federal University of Pelotas, Pelotas, Brazil
-* Advisor: Dr. Marcos Antonio Bacarin
-* Scholarship from: FAPERGS and CNPq
+* __2011 - 2015__
+* University of California Riverside
+* Graduated *summa cum laude*
 
 
