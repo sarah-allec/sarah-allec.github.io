@@ -2,13 +2,11 @@
 layout: default
 img: Master.JPG
 category: Education
-title: Master's in Plant Physiology
+title: Masters in Materials Science & Engineering
 description: |
 ---
 
-* __2010 - 2012__
-* Federal University of Viçosa, Viçosa, Brazil
-* Production, accumulation and exudation of organic acids on aluminum toxicity in *Stylosanthes*.
-* Advisor: Dr. José Cambraia
-* Scholarship from: CNPq
+* __2015 - 2018__
+* University of California Riverside
+* Advisor: Dr. Bryan M. Wong
 
