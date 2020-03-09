@@ -1,6 +1,6 @@
 ---
 layout: default
-img: phd.JPG
+img: phd.jpg
 category: Education
 title: PhD in Materials Science & Engineering
 description: 2015-2020
