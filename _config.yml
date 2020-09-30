@@ -4,7 +4,7 @@
 
 url: http://sarah-allec.github.io
 title: Sarah Allec
-email: sarah.allec@email.ucr.edu
+email: sarah.allec@pnnl.gov
 author: Sarah Allec
 description: "Sarah's Personal Page"
 
@@ -29,7 +29,7 @@ social:
     url: https://github.com/sarah-allec
   - icon: envelope-o
     title: email
-    url: mailto:sarah.allec@email.ucr.edu
+    url: mailto:sarah.allec@pnnl.gov
   - icon: linkedin
     title: linkedin
     url: https://www.linkedin.com/in/sarah-allec/
