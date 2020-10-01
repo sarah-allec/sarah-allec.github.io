@@ -1,6 +1,6 @@
 ---
 layout: default
-img: Master.JPG
+img: Master.jpg
 category: Education
 title: M.S. in Materials Science & Engineering
 description: |
