@@ -1,6 +1,6 @@
 ---
 layout: default
-img: rice.JPG
+img: BS.jpg
 category: Education
 title: B.S. in Applied Mathematics (Physics)
 description: |
