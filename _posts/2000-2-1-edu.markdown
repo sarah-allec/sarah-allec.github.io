@@ -9,4 +9,4 @@ description: |
 * __2015 - 2018__
 * University of California Riverside
 * Advisor: Dr. Bryan M. Wong
-* Fellowships: NASE MIRO FIELDS Graduate Student Fellowship (2016-2017), NSF Graduate Research Fellowship (2017-2018)
+* Fellowships: NASA MIRO FIELDS Graduate Student Fellowship (2016-2017), NSF Graduate Research Fellowship (2017-2018)
