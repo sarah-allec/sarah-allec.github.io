@@ -6,4 +6,4 @@ title:
 description: |
 ---
 
-- [GoogleScholar](https://scholar.google.com/citations?user=TTNFb38AAAAJ&hl=en)
+- [GoogleScholar](https://scholar.google.com/citations?user=TTNFb38AAAAJ&hl=en){:target="_blank"}
