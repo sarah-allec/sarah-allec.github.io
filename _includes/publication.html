@@ -3,7 +3,7 @@
 {% for post in site.posts reversed %}
     {% if post.category contains 'Publications'%}
       {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
-        {% if thecycle == 'odd' %}
+        {% if thecycle == 'even' %}
         <div class="content-section-a">
 
             <div class="container">
