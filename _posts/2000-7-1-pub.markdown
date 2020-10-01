@@ -2,7 +2,7 @@
 layout: default
 img: google_scholar.jpg
 category: Publications
-title: "List of Publications"
+title: 
 description: |
 ---
 
