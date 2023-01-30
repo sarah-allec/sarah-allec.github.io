@@ -34,6 +34,9 @@ social:
     title: linkedin
     url: https://www.linkedin.com/in/sarah-allec/
   - icon: file-pdf-o
+    title: Resume
+    url: img/sarah_allec_resume.pdf
+  - icon: file-pdf-o
     title: CV
     url: img/sarah_allec_cv.pdf
 #  - icon: website
