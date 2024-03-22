@@ -24,6 +24,9 @@ gems:
 # ----------------------- #
 
 social:
+  - icon: folder
+    title: portfolio
+    url: https://materials-informatics.streamlit.app/
   - icon: github
     title: github
     url: https://github.com/sarah-allec
