@@ -12,6 +12,7 @@ Almost everything on the page comes from plain-text files in `_data/`:
 | --- | --- |
 | `_data/profile.yml` | Name, role, About paragraphs, research interests, and the link buttons |
 | `_data/themes.yml` | The four research theme cards (title, icon, one paragraph) |
+| `_data/software.yml` | Open-source software cards under Research |
 | `_data/experience.yml` | Positions held |
 | `_data/education.yml` | Degrees |
 | `_data/publications.yml` | Publication list (grouped by year automatically) |

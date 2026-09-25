@@ -1,9 +1,12 @@
 # Research theme cards. 'icon' is one of: atom, network, molecule, glass, beaker, chip.
+# 'link' and 'link_text' are optional and add a small link at the bottom of a card.
 - title: Active learning & uncertainty
   icon: network
   text: >-
     Bayesian and probabilistic machine learning that knows what it does not know, used to decide
     which simulation or experiment to run next and to steer autonomous synthesis.
+  link: https://github.com/ziatdinovmax/SciLink
+  link_text: See SciLink
 
 - title: Atomistic modeling
   icon: atom

@@ -8,8 +8,8 @@ affiliation: Pacific Northwest National Laboratory
 affiliation_url: https://www.pnnl.gov/
 location: Richland, WA
 tagline: >-
-  I combine physics-based simulation with machine learning to design new materials,
-  bridging the gap between computation and experiment.
+  I combine physics-based simulation with AI, from Bayesian models to autonomous agents,
+  to design new materials and close the loop between computation and experiment.
 
 # Shown in the About section. Each item is one paragraph. Basic HTML such as <em> and <a> is allowed.
 about:
@@ -31,8 +31,11 @@ about:
     water-in-salt electrolytes.
   - >-
     In my research I combine atomistic modeling at both the electronic (quantum) and atomic (classical)
-    levels with machine learning. I am passionate about finding new ways to solve problems in materials
-    science and chemistry <em>in silico</em> in order to accelerate scientific discovery.
+    levels with machine learning, and increasingly with LLM-based agents: I am a core contributor to
+    <a href="https://github.com/ziatdinovmax/SciLink">SciLink</a>, an open-source platform of agents for
+    automating scientific research, where I build the simulation agents. I am passionate about finding new
+    ways to solve problems in materials science and chemistry <em>in silico</em> in order to accelerate
+    scientific discovery.
 
 interests:
   - Active learning

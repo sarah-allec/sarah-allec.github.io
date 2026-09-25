@@ -1,0 +1,24 @@
+# Open-source software, shown as cards under Research. 'role' is a short label such as
+# "Core contributor" or "Author". Add a new project by copying a block.
+- name: SciLink
+  role: Core contributor
+  url: https://github.com/ziatdinovmax/SciLink
+  text: >-
+    An open-source platform of LLM-powered agents that plan experiments, analyze multimodal data,
+    and run simulations. I build the simulation agents, which set up and run DFT and molecular
+    dynamics calculations and recommend structures.
+
+- name: SciLink Tutorials
+  role: Author
+  url: https://github.com/sarah-allec/SciLink-Tutorials
+  text: >-
+    Hands-on notebooks for SciLink from the MRS Spring 2026 tutorial and the MEM-C Seed AI
+    Fellowship, covering knowledge-grounded planning, Bayesian optimization, and active-learning
+    DFT screening.
+
+- name: RDsynthesisML
+  role: Author
+  url: https://github.com/sarah-allec/RDsynthesisML
+  text: >-
+    Scripts and notebooks reproducing "Toward autonomous materials synthesis via reaction-diffusion
+    coupling", from image scalarization through Bayesian optimization of the next experiment.

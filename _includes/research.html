@@ -11,9 +11,21 @@
         <span class="card-icon">{% include icon.html name=t.icon %}</span>
         <h3>{{ t.title }}</h3>
         <p>{{ t.text }}</p>
+        {%- if t.link -%}<a class="card-link" href="{{ t.link }}">{{ t.link_text | default: "Learn more" }} &rarr;</a>{%- endif -%}
       </article>
       {%- endfor -%}
     </div>
+    {%- if site.data.software.size > 0 -%}
+    <h3 class="label">Open-source software</h3>
+    <div class="cards software">
+      {%- for sw in site.data.software -%}
+      <a class="card sw-card" href="{{ sw.url }}">
+        <span class="sw-head">{% include icon.html name="github" %}<span class="sw-name">{{ sw.name }}</span><span class="sw-role">{{ sw.role }}</span></span>
+        <span class="sw-text">{{ sw.text }}</span>
+      </a>
+      {%- endfor -%}
+    </div>
+    {%- endif -%}
     {%- if p.interests.size > 0 -%}
     <h3 class="label">Interests</h3>
     <ul class="tags">
