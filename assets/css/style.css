@@ -48,6 +48,7 @@ html { scroll-behavior: smooth; scroll-padding-top: 4.5rem; }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 
 body {
+  overflow-x: clip;
   margin: 0;
   background: var(--bg);
   color: var(--text);
@@ -91,15 +92,35 @@ h3 { font-size: 1.2rem; }
 
 /* Layout ---------------------------------------------------------- */
 main { max-width: var(--measure); margin: 0 auto; padding: 0 1rem 4rem; }
+main > .hero + .section { padding-top: 3.5rem; }
 .section { padding-top: 4rem; }
 .section + .section { border-top: 1px solid var(--line); margin-top: 4rem; }
 
 /* Hero ------------------------------------------------------------ */
-.hero { padding: 5rem 0 1rem; }
-.eyebrow { margin: 0 0 0.75rem; font-size: 0.85rem; font-weight: 500; letter-spacing: 0.04em; text-transform: uppercase; color: var(--muted); }
+.hero {
+  position: relative; isolation: isolate;
+  color: #f2f4f7;
+  /* full-bleed band regardless of the centred column */
+  width: 100vw; margin-left: calc(50% - 50vw);
+  padding: 6.5rem 0 5rem;
+  overflow: hidden;
+}
+.hero-bg {
+  position: absolute; inset: 0; z-index: -1;
+  background:
+    linear-gradient(180deg, rgba(8,14,26,0.60) 0%, rgba(8,14,26,0.48) 55%, rgba(8,14,26,0.88) 100%),
+    url("../img/header.jpg") center 40% / cover no-repeat,
+    #0b1220;
+}
+.hero-bg canvas { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+.hero-inner { max-width: var(--measure); margin: 0 auto; padding: 0 1rem; }
+.hero h1 { color: #fff; text-shadow: 0 2px 24px rgba(0,0,0,0.45); }
+.eyebrow { margin: 0 0 0.75rem; font-size: 0.85rem; font-weight: 500; letter-spacing: 0.04em; text-transform: uppercase; color: rgba(242,244,247,0.75); }
 .eyebrow a { color: inherit; text-decoration: none; }
-.eyebrow a:hover { color: var(--accent-ink); }
-.tagline { font-family: var(--font-serif); font-size: clamp(1.2rem, 2.6vw, 1.5rem); color: var(--muted); max-width: 34rem; margin: 1.25rem 0 1.75rem; line-height: 1.4; }
+.eyebrow a:hover { color: #fff; }
+.tagline { font-family: var(--font-serif); font-size: clamp(1.2rem, 2.6vw, 1.5rem); color: rgba(242,244,247,0.88); max-width: 34rem; margin: 1.25rem 0 1.75rem; line-height: 1.4; text-shadow: 0 1px 12px rgba(0,0,0,0.5); }
+.hero .pill { background: rgba(255,255,255,0.10); border-color: rgba(255,255,255,0.28); color: #fff; backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px); }
+.hero .pill:hover { background: rgba(255,255,255,0.22); border-color: #fff; color: #fff; }
 
 .link-row { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 0.5rem; }
 .pill {

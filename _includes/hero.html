@@ -1,11 +1,16 @@
 {%- assign p = site.data.profile -%}
 <section class="hero" id="top">
-  <p class="eyebrow">{{ p.role }} · <a href="{{ p.affiliation_url }}">{{ p.affiliation }}</a></p>
-  <h1>{{ p.name }}</h1>
-  <p class="tagline">{{ p.tagline }}</p>
-  <ul class="link-row">
-    {%- for l in p.links -%}
-    <li><a class="pill" href="{{ l.url | relative_url }}"{% if l.url contains 'http' or l.url contains '.pdf' %} target="_blank" rel="noopener"{% endif %}>{% include icon.html name=l.icon %}<span>{{ l.label }}</span></a></li>
-    {%- endfor -%}
-  </ul>
+  <div class="hero-bg" aria-hidden="true">
+    <canvas id="lattice"></canvas>
+  </div>
+  <div class="hero-inner">
+    <p class="eyebrow">{{ p.role }} · <a href="{{ p.affiliation_url }}">{{ p.affiliation }}</a></p>
+    <h1>{{ p.name }}</h1>
+    <p class="tagline">{{ p.tagline }}</p>
+    <ul class="link-row">
+      {%- for l in p.links -%}
+      <li><a class="pill" href="{{ l.url | relative_url }}"{% if l.url contains 'http' or l.url contains '.pdf' %} target="_blank" rel="noopener"{% endif %}>{% include icon.html name=l.icon %}<span>{{ l.label }}</span></a></li>
+      {%- endfor -%}
+    </ul>
+  </div>
 </section>
