@@ -1,24 +1,24 @@
-# Research theme cards. 'icon' is one of: atom, network, molecule, glass, beaker, chip.
+# Research theme cards. 'icon' is one of: atom, network, molecule, glass, beaker, chip, bot.
 # 'link' and 'link_text' are optional and add a small link at the bottom of a card.
+- title: AI agents for science
+  icon: bot
+  text: >-
+    LLM-powered agents that plan experiments, analyze data, and run simulations, so that
+    physics-based modeling becomes a tool an autonomous workflow can pick up and use.
+  link: https://github.com/ziatdinovmax/SciLink
+  link_text: See SciLink
+
 - title: Active learning & uncertainty
   icon: network
   text: >-
     Bayesian and probabilistic machine learning that knows what it does not know, used to decide
     which simulation or experiment to run next and to steer autonomous synthesis.
-  link: https://github.com/ziatdinovmax/SciLink
-  link_text: See SciLink
 
 - title: Atomistic modeling
   icon: atom
   text: >-
     Density functional theory, ab initio molecular dynamics, and machine-learned interatomic
-    potentials for amorphous materials, surfaces, and solid-liquid interfaces.
-
-- title: Carbon capture & catalysis
-  icon: molecule
-  text: >-
-    Molecular-level understanding of water-lean CO<sub>2</sub> capture solvents and of catalysts
-    for CO<sub>2</sub> conversion, from solvent chemistry to single-atom dynamics on oxide supports.
+    potentials for amorphous materials, surfaces, catalysts, and CO<sub>2</sub> capture solvents.
 
 - title: Glass & waste form design
   icon: glass
