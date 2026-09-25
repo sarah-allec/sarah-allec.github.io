@@ -79,6 +79,7 @@
   volume: "4"
   pages: "1284-1297"
   doi: 10.1039/d5dd00027k
+  featured: true
   type: article
 
 - title: "Towards informatics-driven design of nuclear waste forms"
@@ -106,6 +107,7 @@
   volume: "107"
   pages: "7784-7799"
   doi: 10.1111/jace.19937
+  featured: true
   type: article
 
 - title: "Tetrameric self-assembling of water-lean solvents enables carbamate anhydride-based CO2 capture chemistry"
@@ -115,6 +117,7 @@
   volume: "16"
   pages: "1160-1168"
   doi: 10.1038/s41557-024-01495-z
+  featured: true
   type: article
 
 - title: "A Case Study of Multimodal, Multi-institutional Data Management for the Combinatorial Materials Science Community"
@@ -186,6 +189,7 @@
   volume: "155"
   pages: "044702"
   doi: 10.1063/5.0048894
+  featured: true
   type: article
 
 - title: "The electrolyte comprising more robust water and superhalides transforms Zn-metal anode reversibly and dendrite-free"

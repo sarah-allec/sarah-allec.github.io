@@ -1,0 +1,24 @@
+# Research theme cards. 'icon' is one of: atom, network, molecule, glass, beaker, chip.
+- title: Active learning & uncertainty
+  icon: network
+  text: >-
+    Bayesian and probabilistic machine learning that knows what it does not know, used to decide
+    which simulation or experiment to run next and to steer autonomous synthesis.
+
+- title: Atomistic modeling
+  icon: atom
+  text: >-
+    Density functional theory, ab initio molecular dynamics, and machine-learned interatomic
+    potentials for amorphous materials, surfaces, and solid-liquid interfaces.
+
+- title: Carbon capture & catalysis
+  icon: molecule
+  text: >-
+    Molecular-level understanding of water-lean CO<sub>2</sub> capture solvents and of catalysts
+    for CO<sub>2</sub> conversion, from solvent chemistry to single-atom dynamics on oxide supports.
+
+- title: Glass & waste form design
+  icon: glass
+  text: >-
+    Informatics-driven design of nuclear waste glasses, combining curated datasets, surrogate
+    models, and sequential learning to predict stability and crystallization.

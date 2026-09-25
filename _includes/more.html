@@ -1,31 +1,36 @@
-<section class="section" id="more">
-  <h2><span class="num">05</span>Talks, awards &amp; service</h2>
-  <div class="cols">
-    {%- if site.data.talks.size > 0 -%}
-    <div>
-      <h3>Invited talks</h3>
-      <ul class="plain">
-        {%- for t in site.data.talks -%}
-        <li><span class="item-title">{{ t.title }}</span><span class="item-meta">{{ t.event }}, {{ t.year }}</span></li>
-        {%- endfor -%}
-      </ul>
-    </div>
-    {%- endif -%}
-    <div>
-      <h3>Awards &amp; fellowships</h3>
-      <ul class="plain">
-        {%- for a in site.data.awards -%}
-        <li><span class="item-title">{{ a.title }}</span><span class="item-meta">{{ a.org }}, {{ a.year }}{% if a.note %} · {{ a.note }}{% endif %}</span></li>
-        {%- endfor -%}
-      </ul>
-    </div>
-    <div>
-      <h3>Mentoring &amp; service</h3>
-      <ul class="plain">
-        {%- for s in site.data.service -%}
-        <li><span class="item-title">{{ s.role }}</span><span class="item-meta">{{ s.org }}, {{ s.year }}</span></li>
-        {%- endfor -%}
-      </ul>
+<section class="section reveal" id="more">
+  <div class="section-head">
+    <h2><span class="num">05</span>Talks, awards &amp; service</h2>
+    <p class="lede">Beyond the papers.</p>
+  </div>
+  <div class="section-body">
+    <div class="cols">
+      {%- if site.data.talks.size > 0 -%}
+      <div>
+        <h3 class="label">Invited talks</h3>
+        <ul class="plain">
+          {%- for t in site.data.talks -%}
+          <li><span class="item-title">{{ t.title }}</span><span class="item-meta">{{ t.event }}, {{ t.year }}</span></li>
+          {%- endfor -%}
+        </ul>
+      </div>
+      {%- endif -%}
+      <div>
+        <h3 class="label">Awards &amp; fellowships</h3>
+        <ul class="plain">
+          {%- for a in site.data.awards -%}
+          <li><span class="item-title">{{ a.title }}</span><span class="item-meta">{{ a.org }}, {{ a.year }}{% if a.note %} · {{ a.note }}{% endif %}</span></li>
+          {%- endfor -%}
+        </ul>
+      </div>
+      <div>
+        <h3 class="label">Mentoring &amp; service</h3>
+        <ul class="plain">
+          {%- for s in site.data.service -%}
+          <li><span class="item-title">{{ s.role }}</span><span class="item-meta">{{ s.org }}, {{ s.year }}</span></li>
+          {%- endfor -%}
+        </ul>
+      </div>
     </div>
   </div>
 </section>

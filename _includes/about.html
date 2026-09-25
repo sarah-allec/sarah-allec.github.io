@@ -1,17 +1,14 @@
 {%- assign p = site.data.profile -%}
-<section class="section" id="about">
-  <h2><span class="num">01</span>About</h2>
-  <div class="prose">
-    {%- for para in p.about -%}
-    <p>{{ para }}</p>
-    {%- endfor -%}
+<section class="section reveal" id="about">
+  <div class="section-head">
+    <h2><span class="num">01</span>About</h2>
+    <p class="lede">Computational materials scientist at PNNL.</p>
   </div>
-  {%- if p.interests.size > 0 -%}
-  <h3>Research interests</h3>
-  <ul class="tags">
-    {%- for t in p.interests -%}
-    <li>{{ t }}</li>
-    {%- endfor -%}
-  </ul>
-  {%- endif -%}
+  <div class="section-body">
+    <div class="prose">
+      {%- for para in p.about -%}
+      <p>{{ para }}</p>
+      {%- endfor -%}
+    </div>
+  </div>
 </section>

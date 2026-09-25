@@ -1,10 +1,15 @@
 {%- assign p = site.data.profile -%}
-<section class="section" id="contact">
-  <h2><span class="num">06</span>Contact</h2>
-  <p class="prose">Send me an email if you would like to get in touch, have questions about my work, or just want to say hello.</p>
-  <ul class="link-row">
-    {%- for l in p.links -%}
-    <li><a class="pill" href="{{ l.url | relative_url }}"{% if l.url contains 'http' or l.url contains '.pdf' %} target="_blank" rel="noopener"{% endif %}>{% include icon.html name=l.icon %}<span>{{ l.label }}</span></a></li>
-    {%- endfor -%}
-  </ul>
+<section class="section reveal" id="contact">
+  <div class="section-head">
+    <h2><span class="num">06</span>Contact</h2>
+    <p class="lede">Say hello.</p>
+  </div>
+  <div class="section-body">
+    <p class="prose">Send me an email if you would like to get in touch, have questions about my work, or just want to say hello.</p>
+    <ul class="link-row">
+      {%- for l in p.links -%}
+      <li><a class="pill" href="{{ l.url | relative_url }}"{% if l.url contains 'http' or l.url contains '.pdf' %} target="_blank" rel="noopener"{% endif %}>{% include icon.html name=l.icon %}<span>{{ l.label }}</span></a></li>
+      {%- endfor -%}
+    </ul>
+  </div>
 </section>

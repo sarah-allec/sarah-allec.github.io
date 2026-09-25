@@ -1,0 +1,26 @@
+{%- assign p = site.data.profile -%}
+<section class="section reveal" id="research">
+  <div class="section-head">
+    <h2><span class="num">02</span>Research</h2>
+    <p class="lede">Where simulation, data, and experiment meet.</p>
+  </div>
+  <div class="section-body">
+    <div class="cards">
+      {%- for t in site.data.themes -%}
+      <article class="card">
+        <span class="card-icon">{% include icon.html name=t.icon %}</span>
+        <h3>{{ t.title }}</h3>
+        <p>{{ t.text }}</p>
+      </article>
+      {%- endfor -%}
+    </div>
+    {%- if p.interests.size > 0 -%}
+    <h3 class="label">Interests</h3>
+    <ul class="tags">
+      {%- for t in p.interests -%}
+      <li>{{ t }}</li>
+      {%- endfor -%}
+    </ul>
+    {%- endif -%}
+  </div>
+</section>

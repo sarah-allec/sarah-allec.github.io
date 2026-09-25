@@ -11,6 +11,7 @@ Almost everything on the page comes from plain-text files in `_data/`:
 | File | What it controls |
 | --- | --- |
 | `_data/profile.yml` | Name, role, About paragraphs, research interests, and the link buttons |
+| `_data/themes.yml` | The four research theme cards (title, icon, one paragraph) |
 | `_data/experience.yml` | Positions held |
 | `_data/education.yml` | Degrees |
 | `_data/publications.yml` | Publication list (grouped by year automatically) |
@@ -18,7 +19,8 @@ Almost everything on the page comes from plain-text files in `_data/`:
 
 To add a publication, copy an existing block in `_data/publications.yml` and fill in the fields.
 Only `title`, `authors`, `journal`, `year`, and `doi` are required. Your name is bolded automatically
-when written as `S. I. Allec` or `S. Allec`.
+when written as `S. I. Allec` or `S. Allec`. Add `featured: true` to a publication to show it as a
+card in the "Selected" row above the full list.
 
 The CV and resume PDFs live in `img/` so that existing links to them keep working. Replace the files
 to update them.
