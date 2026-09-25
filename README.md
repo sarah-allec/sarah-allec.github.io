@@ -25,7 +25,8 @@ card in the "Selected" row above the full list.
 The CV and resume PDFs live in `img/` so that existing links to them keep working. Replace the files
 to update them.
 
-Colors and fonts are set at the top of `assets/css/style.css`. Section templates are in `_includes/`.
+The site is dark by default, with a sun/moon toggle in the nav for light mode. Both palettes are set
+at the top of `assets/css/style.css`, along with the fonts. Section templates are in `_includes/`.
 
 ## Previewing locally
 

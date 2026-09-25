@@ -15,6 +15,17 @@
     sections.forEach(function (s) { io.observe(s); });
   }
 
+  // Theme toggle (dark is the default; the choice is remembered in this browser)
+  var toggle = document.querySelector('.theme-toggle');
+  if (toggle) {
+    toggle.addEventListener('click', function () {
+      var root = document.documentElement;
+      var light = root.getAttribute('data-theme') === 'light';
+      if (light) root.removeAttribute('data-theme'); else root.setAttribute('data-theme', 'light');
+      try { localStorage.setItem('theme', light ? 'dark' : 'light'); } catch (e) {}
+    });
+  }
+
   // Active nav link
   if ('IntersectionObserver' in window && sections.length) {
     var current = null;
