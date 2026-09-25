@@ -1,0 +1,106 @@
+---
+layout: cv
+title: Sarah Allec · Curriculum Vitae
+permalink: /cv/
+---
+{%- assign p = site.data.profile -%}
+{%- assign pubs = site.data.publications | sort: "year" | reverse -%}
+{%- assign years = pubs | map: "year" | uniq -%}
+{%- assign n = pubs.size -%}
+<p class="no-print">This is the web version of my CV. <a href="{{ '/img/sarah_allec_cv.pdf' | relative_url }}">Download the PDF</a> · <a href="{{ '/' | relative_url }}">Back to site</a></p>
+<article class="cv">
+  <header class="cv-header">
+    <div>
+      <h1>{{ p.name }}</h1>
+      <p class="role">{{ p.role }}, {{ p.group }} · {{ p.affiliation }}</p>
+    </div>
+    <div class="cv-contact">
+      {%- for l in p.links -%}
+        {%- if l.label == "Email" -%}<a href="{{ l.url }}">{{ l.url | remove: "mailto:" }}</a><br>{%- endif -%}
+      {%- endfor -%}
+      <a href="{{ site.url }}">sarah-allec.github.io</a><br>
+      {%- assign shown = "" -%}
+      {%- for l in p.links -%}
+        {%- if l.label == "GitHub" or l.label == "LinkedIn" or l.label == "ORCID" or l.label == "Google Scholar" -%}
+          {%- if shown != "" %} · {% endif -%}
+          <a href="{{ l.url }}">{{ l.label }}</a>
+          {%- assign shown = "x" -%}
+        {%- endif -%}
+      {%- endfor -%}
+    </div>
+  </header>
+
+  <p class="summary">{{ p.tagline }}</p>
+
+  <h2>Experience</h2>
+  {%- for job in site.data.experience -%}
+  <div class="entry">
+    <div class="when">{{ job.start }} – {{ job.end }}</div>
+    <div>
+      <div class="title">{{ job.title }}</div>
+      <div class="org">{{ job.org }}{% if job.group %} · {{ job.group }}{% endif %}{% if job.location %} · {{ job.location }}{% endif %}</div>
+      {%- if job.summary -%}<p>{{ job.summary }}</p>{%- endif -%}
+    </div>
+  </div>
+  {%- endfor -%}
+
+  <h2>Education</h2>
+  {%- for ed in site.data.education -%}
+  <div class="entry">
+    <div class="when">{{ ed.start }} – {{ ed.end }}</div>
+    <div>
+      <div class="title">{{ ed.degree }}</div>
+      <div class="org">{{ ed.school }}</div>
+      {%- if ed.details -%}<ul>{%- for d in ed.details -%}<li>{{ d }}</li>{%- endfor -%}</ul>{%- endif -%}
+    </div>
+  </div>
+  {%- endfor -%}
+
+  <h2>Publications<span class="count">{{ n }} peer-reviewed articles and book chapters</span></h2>
+  {%- for y in years -%}
+  <div class="year-group">
+    <div class="year">{{ y }}</div>
+    <ol class="pubs">
+      {%- for pub in pubs -%}{%- if pub.year == y -%}
+      <li><span class="n">{{ n }}.</span><span class="t">{{ pub.title | replace: "CO2", "CO<sub>2</sub>" | replace: "TiO2", "TiO<sub>2</sub>" }}</span> {{ pub.authors | replace: "S. I. Allec", "<b>S. I. Allec</b>" | replace: "S. Allec", "<b>S. Allec</b>" }}. <span class="j">{{ pub.journal }}</span>{% if pub.volume %} <b>{{ pub.volume }}</b>{% endif %}{% if pub.pages %}, {{ pub.pages }}{% endif %} ({{ pub.year }}).{% if pub.type == "chapter" %} Book chapter.{% endif %} <span class="doi"><a href="https://doi.org/{{ pub.doi }}">doi:{{ pub.doi }}</a></span></li>
+      {%- assign n = n | minus: 1 -%}
+      {%- endif -%}{%- endfor -%}
+    </ol>
+  </div>
+  {%- endfor -%}
+
+  <h2>Open-source software</h2>
+  <ul class="plain">
+    {%- for sw in site.data.software -%}
+    <li><b>{{ sw.name }}</b> ({{ sw.role | downcase }}) · <a href="{{ sw.url }}">{{ sw.url | remove: "https://" }}</a><br>{{ sw.text }}</li>
+    {%- endfor -%}
+  </ul>
+
+  <h2>Invited talks</h2>
+  <ul class="plain">
+    {%- for t in site.data.talks -%}
+    <li>{{ t.title }}. <span class="meta">{{ t.event }}, {{ t.year }}.</span></li>
+    {%- endfor -%}
+  </ul>
+
+  <div class="two-col">
+    <div>
+      <h2>Awards &amp; fellowships</h2>
+      <ul class="plain">
+        {%- for a in site.data.awards -%}
+        <li><b>{{ a.title }}</b><br><span class="meta">{{ a.org }}, {{ a.year }}{% if a.note %}. {{ a.note | replace: "CO2", "CO<sub>2</sub>" }}{% endif %}</span></li>
+        {%- endfor -%}
+      </ul>
+    </div>
+    <div>
+      <h2>Mentoring &amp; service</h2>
+      <ul class="plain">
+        {%- for s in site.data.service -%}
+        <li><b>{{ s.role }}</b><br><span class="meta">{{ s.org }}, {{ s.year }}</span></li>
+        {%- endfor -%}
+      </ul>
+    </div>
+  </div>
+
+  <p class="foot">Updated {{ site.time | date: "%B %Y" }}. Current version at sarah-allec.github.io/cv.</p>
+</article>

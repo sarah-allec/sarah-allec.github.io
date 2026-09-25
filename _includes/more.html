@@ -19,7 +19,7 @@
         <h3 class="label">Awards &amp; fellowships</h3>
         <ul class="plain">
           {%- for a in site.data.awards -%}
-          <li><span class="item-title">{{ a.title }}</span><span class="item-meta">{{ a.org }}, {{ a.year }}{% if a.note %} · {{ a.note }}{% endif %}</span></li>
+          <li><span class="item-title">{{ a.title }}</span><span class="item-meta">{{ a.org }}, {{ a.year }}{% if a.note %} · {{ a.note | replace: "CO2", "CO<sub>2</sub>" }}{% endif %}</span></li>
           {%- endfor -%}
         </ul>
       </div>

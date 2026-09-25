@@ -23,8 +23,17 @@ Only `title`, `authors`, `journal`, `year`, and `doi` are required. Your name is
 when written as `S. I. Allec` or `S. Allec`. Add `featured: true` to a publication to show it as a
 card in the "Selected" row above the full list.
 
-The CV and resume PDFs live in `img/` so that existing links to them keep working. Replace the files
-to update them.
+## Updating the CV
+
+The CV is generated from the same data files, so it never needs editing by hand. There is a web
+version at [/cv/](https://sarah-allec.github.io/cv/) (template in `cv.html`, styles in
+`_includes/cv-style.css`). To refresh the PDF at `img/sarah_allec_cv.pdf` after changing content:
+
+```sh
+sh bin/build-cv.sh
+```
+
+This needs Google Chrome installed. Commit the regenerated PDF along with the content change.
 
 The site is dark by default, with a sun/moon toggle in the nav for light mode. Both palettes are set
 at the top of `assets/css/style.css`, along with the fonts. Section templates are in `_includes/`.
