@@ -1,0 +1,35 @@
+<section class="section" id="experience">
+  <h2><span class="num">02</span>Experience</h2>
+  <ol class="timeline">
+    {%- for job in site.data.experience -%}
+    <li>
+      <div class="when">{{ job.start }} – {{ job.end }}</div>
+      <div class="what">
+        <h3>{{ job.title }}</h3>
+        <p class="where">
+          {% if job.org_url %}<a href="{{ job.org_url }}">{{ job.org }}</a>{% else %}{{ job.org }}{% endif %}{% if job.group %} · {{ job.group }}{% endif %}{% if job.location %} · {{ job.location }}{% endif %}
+        </p>
+        {%- if job.summary -%}<p>{{ job.summary }}</p>{%- endif -%}
+      </div>
+    </li>
+    {%- endfor -%}
+  </ol>
+
+  <h2 class="sub"><span class="num">03</span>Education</h2>
+  <ol class="timeline">
+    {%- for ed in site.data.education -%}
+    <li>
+      <div class="when">{{ ed.start }} – {{ ed.end }}</div>
+      <div class="what">
+        <h3>{{ ed.degree }}</h3>
+        <p class="where">{{ ed.school }}</p>
+        {%- if ed.details -%}
+        <ul class="details">
+          {%- for d in ed.details -%}<li>{{ d }}</li>{%- endfor -%}
+        </ul>
+        {%- endif -%}
+      </div>
+    </li>
+    {%- endfor -%}
+  </ol>
+</section>

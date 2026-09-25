@@ -1,0 +1,20 @@
+{%- assign pubs = site.data.publications | sort: "year" | reverse -%}
+{%- assign years = pubs | map: "year" | uniq -%}
+<section class="section" id="publications">
+  <h2><span class="num">04</span>Publications</h2>
+  <p class="muted">{{ pubs.size }} peer-reviewed articles and book chapters. Also on
+    <a href="https://scholar.google.com/citations?user=TTNFb38AAAAJ">Google Scholar</a> and
+    <a href="https://orcid.org/0000-0002-1101-3160">ORCID</a>.</p>
+  {%- for y in years -%}
+  <h3 class="year">{{ y }}</h3>
+  <ol class="pubs">
+    {%- for pub in pubs -%}{%- if pub.year == y -%}
+    <li>
+      <span class="pub-title"><a href="https://doi.org/{{ pub.doi }}">{{ pub.title | replace: "CO2", "CO<sub>2</sub>" | replace: "TiO2", "TiO<sub>2</sub>" }}</a></span>
+      <span class="pub-authors">{{ pub.authors | replace: "S. I. Allec", "<strong>S. I. Allec</strong>" | replace: "S. Allec", "<strong>S. Allec</strong>" }}</span>
+      <span class="pub-venue"><em>{{ pub.journal }}</em>{% if pub.volume %} <b>{{ pub.volume }}</b>{% endif %}{% if pub.pages %}, {{ pub.pages }}{% endif %} ({{ pub.year }}){% if pub.type == "chapter" %} · book chapter{% elsif pub.type == "preprint" %} · preprint{% endif %}</span>
+    </li>
+    {%- endif -%}{%- endfor -%}
+  </ol>
+  {%- endfor -%}
+</section>

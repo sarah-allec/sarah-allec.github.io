@@ -1,51 +1,24 @@
-# ----------------------- #
-#      Main Configs       #
-# ----------------------- #
-
-url: http://sarah-allec.github.io
+# Site settings. Most content lives in the _data/ folder, not here.
 title: Sarah Allec
-email: sarah.allec@pnnl.gov
-author: Sarah Allec
-description: "Sarah's Personal Page"
-
-# ----------------------- #
-#    Jekyll & Plugins     #
-# ----------------------- #
+tagline: Materials Scientist at Pacific Northwest National Laboratory
+description: "Computational materials scientist at Pacific Northwest National Laboratory working on ab initio modeling, machine learning, and active learning for materials discovery."
+url: "https://sarah-allec.github.io"
+baseurl: ""
+lang: en
+author:
+  name: Sarah Allec
 
 # Build settings
 markdown: kramdown
 permalink: pretty
-# Build sitemap
-gems:
+plugins:
+  - jekyll-seo-tag
   - jekyll-sitemap
 
-# ----------------------- #
-#   3rd Party Settings    #
-# ----------------------- #
-
-social:
-  - icon: folder
-    title: portfolio
-    url: https://materials-informatics.streamlit.app/
-  - icon: github
-    title: github
-    url: https://github.com/sarah-allec
-  - icon: envelope-o
-    title: email
-    url: mailto:sarah.allec@gmail.com
-  - icon: linkedin
-    title: linkedin
-    url: https://www.linkedin.com/in/sarah-allec/
-  - icon: file-pdf-o
-    title: Resume
-    url: img/sarah_allec_resume.pdf
-  - icon: file-pdf-o
-    title: CV
-    url: img/sarah_allec_cv.pdf
-#  - icon: website
-#    title: CV Lattes
-#    url: http://lattes.cnpq.br/5399100590606067
-#  - icon: twitter
-#   title: twitter
-#    url: https://twitter.com/danicassol
-
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .bundle
+  - node_modules

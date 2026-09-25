@@ -1,9 +1,0 @@
----
-layout: default
-img: 
-category: Publications
-title: 
-description: |
----
-
-- [GoogleScholar](https://scholar.google.com/citations?user=TTNFb38AAAAJ&hl=en){:target="_blank"}

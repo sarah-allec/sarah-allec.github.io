@@ -1,0 +1,17 @@
+# Degrees, newest first.
+- degree: Ph.D. in Materials Science & Engineering
+  school: University of California, Riverside
+  start: "2015"
+  end: "2020"
+  details:
+    - "Thesis: Atomistic Modeling of Amorphous Materials"
+    - "Advisors: P. Alex Greaney (Ph.D.) and Bryan M. Wong (M.S., 2018)"
+    - "NSF Graduate Research Fellowship, NASA MIRO FIELDS Graduate Student Fellowship"
+
+- degree: B.S. in Applied Mathematics (Physics emphasis)
+  school: University of California, Riverside
+  start: "2011"
+  end: "2015"
+  details:
+    - "Graduated summa cum laude"
+    - "Regents Scholarship"

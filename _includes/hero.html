@@ -1,7 +1,8 @@
 {%- assign p = site.data.profile -%}
-<section class="section" id="contact">
-  <h2><span class="num">06</span>Contact</h2>
-  <p class="prose">Send me an email if you would like to get in touch, have questions about my work, or just want to say hello.</p>
+<section class="hero" id="top">
+  <p class="eyebrow">{{ p.role }} · <a href="{{ p.affiliation_url }}">{{ p.affiliation }}</a></p>
+  <h1>{{ p.name }}</h1>
+  <p class="tagline">{{ p.tagline }}</p>
   <ul class="link-row">
     {%- for l in p.links -%}
     <li><a class="pill" href="{{ l.url | relative_url }}"{% if l.url contains 'http' or l.url contains '.pdf' %} target="_blank" rel="noopener"{% endif %}>{% include icon.html name=l.icon %}<span>{{ l.label }}</span></a></li>

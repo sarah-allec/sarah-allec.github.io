@@ -1,0 +1,71 @@
+# Who you are and where to find you. Edit freely; everything here is plain text.
+name: Sarah Allec
+first_name: Sarah
+role: Materials Scientist
+group: Materials Discovery Team
+group_url: https://www.pnnl.gov/people/sarah-allec
+affiliation: Pacific Northwest National Laboratory
+affiliation_url: https://www.pnnl.gov/
+location: Richland, WA
+tagline: >-
+  I combine physics-based simulation with machine learning to design new materials,
+  bridging the gap between computation and experiment.
+
+# Shown in the About section. Each item is one paragraph. Basic HTML such as <em> and <a> is allowed.
+about:
+  - >-
+    I am a computational materials scientist on the
+    <a href="https://www.pnnl.gov/people/sarah-allec">Materials Discovery Team</a> at
+    <a href="https://www.pnnl.gov/">Pacific Northwest National Laboratory</a>, where I specialize in
+    <em>ab initio</em> modeling and active learning to help bridge the gap between simulations and
+    experiments. I previously worked as a research scientist at
+    <a href="https://citrine.io/">Citrine Informatics</a>, specializing in materials informatics, and
+    before that as a postdoc in PNNL's Basic &amp; Applied Molecular Foundations group, studying
+    CO<sub>2</sub> capture and heterogeneous catalysis.
+  - >-
+    I earned my B.S. in Applied Mathematics with an emphasis in Physics from UC Riverside in 2015,
+    then stayed for a Ph.D. in Materials Science &amp; Engineering, first in Bryan Wong's
+    <a href="http://www.bmwong-group.com/">Nanoscale &amp; Mesoscale Energy Materials group</a> and then in
+    Alex Greaney's <a href="http://alexgreaney.com/">Computational Materials Group</a>. My dissertation focused
+    on atomistic modeling of amorphous materials, particularly amorphous metal oxides and
+    water-in-salt electrolytes.
+  - >-
+    In my research I combine atomistic modeling at both the electronic (quantum) and atomic (classical)
+    levels with machine learning. I am passionate about finding new ways to solve problems in materials
+    science and chemistry <em>in silico</em> in order to accelerate scientific discovery.
+
+interests:
+  - Active learning
+  - Probabilistic machine learning
+  - Uncertainty quantification
+  - Multi-scale modeling
+  - Machine-learned interatomic potentials
+  - Carbon capture
+  - Heterogeneous catalysis
+  - Surface chemistry
+  - Materials synthesis
+  - Nuclear waste glasses
+
+# Links shown in the header and contact section. Order matters.
+links:
+  - label: Email
+    url: mailto:sarah.allec@gmail.com
+    icon: mail
+  - label: GitHub
+    url: https://github.com/sarah-allec
+    icon: github
+  - label: LinkedIn
+    url: https://www.linkedin.com/in/sarah-allec/
+    icon: linkedin
+  - label: Google Scholar
+    url: https://scholar.google.com/citations?user=TTNFb38AAAAJ
+    icon: scholar
+  - label: ORCID
+    url: https://orcid.org/0000-0002-1101-3160
+    icon: orcid
+  - label: CV
+    url: /img/sarah_allec_cv.pdf
+    icon: file
+  - label: Resume
+    url: /img/sarah_allec_resume.pdf
+    icon: file

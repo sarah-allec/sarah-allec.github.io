@@ -1,0 +1,261 @@
+# Publications, newest first. Add a new entry by copying one block.
+# 'pages' can be a page range or an article number. 'type' is article, chapter, or preprint.
+
+- title: "Assessing universal MLIP robustness with per-atom uncertainty for simulations of solid-liquid interfaces"
+  authors: "J. A. Bilbrey, J. S. Firoz, S. I. Allec, H. W. Sprueill, A. D. von Rueden, B. A. Jackson, S. Raugei, M. S. Lee, S. Choudhury"
+  journal: "npj Computational Materials"
+  year: 2026
+  volume: "12"
+  pages: "291"
+  doi: 10.1038/s41524-026-02051-8
+  type: article
+
+- title: "Agentic workflow enables the recovery of critical materials from complex feedstocks via selective precipitation"
+  authors: "A. Ritchhart, S. I. Allec, P. Butreddy, K. Kulesa, Q. Wang, D. T. Nguyen, M. Ziatdinov, E. Nakouzi"
+  journal: "Materials Horizons"
+  year: 2026
+  volume: "13"
+  pages: "7008-7014"
+  doi: 10.1039/d6mh00475j
+  type: article
+
+- title: "Predicting Nepheline Formation in Nuclear Waste Glasses Using Machine Learning With Uncertainty Quantification"
+  authors: "M. Diaz-Acevedo, C. E. Curry, X. Lu, S. Chong, S. I. Allec, J. D. Vienna"
+  journal: "International Journal of Applied Glass Science"
+  year: 2026
+  volume: "17"
+  pages: "e70062"
+  doi: 10.1111/ijag.70062
+  type: article
+
+- title: "Boron Coordination in Multicomponent Glasses: Analytical Models and Machine Learning With Uncertainty"
+  authors: "C. E. Curry, M. Diaz-Acevedo, D. Wang, S. I. Allec, J. J. Neeway, J. D. Vienna, X. Lu"
+  journal: "International Journal of Applied Glass Science"
+  year: 2026
+  volume: "17"
+  pages: "e70043"
+  doi: 10.1111/ijag.70043
+  type: article
+
+- title: "Toward Intelligent Multimodal Holography for Real-Time Chemical Imaging of Dynamic Ion Separation"
+  authors: "G. Ricchiuti, S. I. Allec, M. Ziatdinov, V. Prabhakaran"
+  journal: "Advanced Intelligent Discovery"
+  year: 2026
+  volume: "2"
+  pages: "e202500237"
+  doi: 10.1002/aidi.202500237
+  type: article
+
+- title: "Comparison of DeePMD, MTP, GAP, ACE and MACE Machine-Learned Potentials for Radiation-Damage Simulations: A User Perspective"
+  authors: "A. Roy, R. Devanathan, S. Allec, G. Nandipati, A. M. Casella, D. J. Senor, D. D. Johnson, G. Balasubramanian, A. Soulami"
+  journal: "Advanced Intelligent Discovery"
+  year: 2026
+  pages: "e202500196"
+  doi: 10.1002/aidi.202500196
+  type: article
+
+- title: "Toward autonomous materials synthesis via reaction–diffusion coupling"
+  authors: "A. Ritchhart, S. I. Allec, H. M. Job, P. Butreddy, M. Ziatdinov, E. Nakouzi"
+  journal: "APL Machine Learning"
+  year: 2025
+  volume: "3"
+  pages: "036109"
+  doi: 10.1063/5.0267949
+  type: article
+
+- title: "Computational Investigation of a CO2 Conversion Strategy via Diels–Alder Reaction in a Carbon Capture Solvent"
+  authors: "D. Zhang, M. T. Manetsch, S. I. Allec, L. Kollias, R. Rousseau, D. J. Heldebrant, V. A. Glezakou"
+  journal: "ACS Omega"
+  year: 2025
+  volume: "10"
+  pages: "23663-23672"
+  doi: 10.1021/acsomega.5c02620
+  type: article
+
+- title: "Active and transfer learning with partially Bayesian neural networks for materials and chemicals"
+  authors: "S. I. Allec, M. Ziatdinov"
+  journal: "Digital Discovery"
+  year: 2025
+  volume: "4"
+  pages: "1284-1297"
+  doi: 10.1039/d5dd00027k
+  type: article
+
+- title: "Towards informatics-driven design of nuclear waste forms"
+  authors: "V. I. Hegde, M. Peterson, S. I. Allec, X. Lu, T. Mahadevan, T. Nguyen, J. Kalahe, J. Oshiro, R. J. Seffens, E. K. Nickerson, J. Du, B. J. Riley, J. D. Vienna, J. E. Saal"
+  journal: "Digital Discovery"
+  year: 2024
+  volume: "3"
+  pages: "1450-1466"
+  doi: 10.1039/d4dd00096j
+  type: article
+
+- title: "Molecular Understanding of Nitrogen Oxide Fixation of Water-Lean Carbon Capture Solvents by Atomistic Modeling"
+  authors: "L. Kollias, M. T. Nguyen, S. I. Allec, D. Malhotra, D. Zhang, R. Rousseau, V. A. Glezakou, P. K. Koech, D. J. Heldebrant"
+  journal: "Industrial & Engineering Chemistry Research"
+  year: 2024
+  volume: "63"
+  pages: "12316-12324"
+  doi: 10.1021/acs.iecr.4c01143
+  type: article
+
+- title: "Evaluation of GlassNet for physics-informed machine learning of glass stability and glass-forming ability"
+  authors: "S. I. Allec, X. Lu, D. R. Cassar, X. T. Nguyen, V. I. Hegde, T. Mahadevan, M. Peterson, J. Du, B. J. Riley, J. D. Vienna, J. E. Saal"
+  journal: "Journal of the American Ceramic Society"
+  year: 2024
+  volume: "107"
+  pages: "7784-7799"
+  doi: 10.1111/jace.19937
+  type: article
+
+- title: "Tetrameric self-assembling of water-lean solvents enables carbamate anhydride-based CO2 capture chemistry"
+  authors: "J. Leclaire, D. J. Heldebrant, K. Grubel, J. Septavaux, M. Hennebelle, E. D. Walter, Y. Chen, J. L. Bañuelos, D. Zhang, M. T. Nguyen, D. Ray, S. I. Allec, D. Malhotra, W. Joo, J. King"
+  journal: "Nature Chemistry"
+  year: 2024
+  volume: "16"
+  pages: "1160-1168"
+  doi: 10.1038/s41557-024-01495-z
+  type: article
+
+- title: "A Case Study of Multimodal, Multi-institutional Data Management for the Combinatorial Materials Science Community"
+  authors: "S. I. Allec, E. S. Muckley, N. S. Johnson, C. K. H. Borg, D. J. Kirsch, J. Martin, R. Pant, I. Takeuchi, A. S. Lee, J. E. Saal, L. Ward, A. Mehta"
+  journal: "Integrating Materials and Manufacturing Innovation"
+  year: 2024
+  volume: "13"
+  pages: "406-419"
+  doi: 10.1007/s40192-024-00345-7
+  type: article
+
+- title: "Enhancing CO2 Transport Across a PEEK-Ionene Membrane and Water-Lean Solvent Interface"
+  authors: "E. D. Walter, D. Zhang, Y. Chen, K. S. Han, J. D. Bazak, S. Burton, K. O'Harra, D. W. Hoyt, J. E. Bara, D. Malhotra, S. I. Allec, V. A. Glezakou, D. J. Heldebrant, R. Rousseau"
+  journal: "ChemSusChem"
+  year: 2023
+  volume: "16"
+  pages: "e202300157"
+  doi: 10.1002/cssc.202300157
+  type: article
+
+- title: "Dynamic Evolution of Palladium Single Atoms on Anatase Titania Support Determines the Reverse Water–Gas Shift Activity"
+  authors: "L. Chen, S. I. Allec, M. T. Nguyen, L. Kovarik, A. S. Hoffman, J. Hong, D. Meira, H. Shi, S. R. Bare, V. A. Glezakou, R. Rousseau, J. Szanyi"
+  journal: "Journal of the American Chemical Society"
+  year: 2023
+  volume: "145"
+  pages: "10847-10860"
+  doi: 10.1021/jacs.3c02326
+  type: article
+
+- title: "The Role of Surface Hydroxyls in the Mobility of Carboxylates on Surfaces: Dynamics of Acetate on Anatase TiO2(101)"
+  authors: "R. Ma, C. R. O’Connor, G. Collinge, S. I. Allec, M. S. Lee, Z. Dohnálek"
+  journal: "The Journal of Physical Chemistry Letters"
+  year: 2023
+  volume: "14"
+  pages: "2542-2550"
+  doi: 10.1021/acs.jpclett.3c00175
+  type: article
+
+- title: "Advanced Theory and Simulation to Guide the Development of CO2 Capture Solvents"
+  authors: "L. Kollias, D. Zhang, S. I. Allec, M. T. Nguyen, M. S. Lee, D. C. Cantu, R. Rousseau, V. A. Glezakou"
+  journal: "ACS Omega"
+  year: 2022
+  volume: "7"
+  pages: "12453-12466"
+  doi: 10.1021/acsomega.1c07398
+  type: article
+
+- title: "Assessing entropy for catalytic processes at complex reactive interfaces"
+  authors: "L. Kollias, G. Collinge, D. Zhang, S. I. Allec, P. K. Gurunathan, G. Piccini, S. F. Yuk, M. T. Nguyen, M. S. Lee, V. A. Glezakou, R. Rousseau"
+  journal: "Annual Reports in Computational Chemistry"
+  year: 2022
+  pages: "3-51"
+  doi: 10.1016/bs.arcc.2022.09.004
+  type: chapter
+
+- title: "Amphilic Water-Lean Carbon Capture Solvent Wetting Behavior through Decomposition by Stainless-Steel Interfaces"
+  authors: "M. T. Nguyen, K. Grubel, D. Zhang, P. K. Koech, D. Malhotra, S. Allec, R. Rousseau, V. A. Glezakou, D. J. Heldebrant"
+  journal: "ChemSusChem"
+  year: 2021
+  volume: "14"
+  pages: "5283-5292"
+  doi: 10.1002/cssc.202101350
+  type: article
+
+- title: "The role of sub-surface hydrogen on CO2 reduction and dynamics on Ni(110): An ab initio molecular dynamics study"
+  authors: "S. I. Allec, M. T. Nguyen, R. Rousseau, V. A. Glezakou"
+  journal: "The Journal of Chemical Physics"
+  year: 2021
+  volume: "155"
+  pages: "044702"
+  doi: 10.1063/5.0048894
+  type: article
+
+- title: "The electrolyte comprising more robust water and superhalides transforms Zn-metal anode reversibly and dendrite-free"
+  authors: "C. Zhang, W. Shin, L. Zhu, C. Chen, J. C. Neuefeind, Y. Xu, S. I. Allec, C. Liu, Z. Wei, A. Daniyar, J. Jiang, C. Fang, P. A. Greaney, X. Ji"
+  journal: "Carbon Energy"
+  year: 2021
+  volume: "3"
+  pages: "339-348"
+  doi: 10.1002/cey2.70
+  type: article
+
+- title: "Chirality Induced Spin Selectivity of Photoexcited Electrons in Carbon-Sulfur [n]Helicenes"
+  authors: "J. M. Matxain, J. M. Ugalde, V. Mujica, S. I. Allec, B. M. Wong, D. Casanova"
+  journal: "ChemPhotoChem"
+  year: 2019
+  volume: "3"
+  pages: "770-777"
+  doi: 10.1002/cptc.201900128
+  type: article
+
+- title: "Heterogeneous CPU+GPU-Enabled Simulations for DFTB Molecular Dynamics of Large Chemical and Biological Systems"
+  authors: "S. I. Allec, Y. Sun, J. Sun, C. A. Chang, B. M. Wong"
+  journal: "Journal of Chemical Theory and Computation"
+  year: 2019
+  volume: "15"
+  pages: "2807-2815"
+  doi: 10.1021/acs.jctc.8b01239
+  type: article
+
+- title: "Linear-Response and Real-Time, Time-Dependent Density Functional Theory for Predicting Optoelectronic Properties of Dye-Sensitized Solar Cells"
+  authors: "S. I. Allec, A. Kumar, B. M. Wong"
+  journal: "Dye-Sensitized Solar Cells"
+  year: 2019
+  pages: "171-201"
+  doi: 10.1016/B978-0-12-814541-8.00005-7
+  type: chapter
+
+- title: "A Highly Stretchy, Transparent Elastomer with the Capability to Automatically Self-Heal Underwater"
+  authors: "Y. Cao, H. Wu, S. I. Allec, B. M. Wong, D. S. Nguyen, C. Wang"
+  journal: "Advanced Materials"
+  year: 2018
+  volume: "30"
+  pages: "1804602"
+  doi: 10.1002/adma.201804602
+  type: article
+
+- title: "A Transparent, Self-Healing, Highly Stretchable Ionic Conductor"
+  authors: "Y. Cao, T. G. Morrissey, E. Acome, S. I. Allec, B. M. Wong, C. Keplinger, C. Wang"
+  journal: "Advanced Materials"
+  year: 2017
+  volume: "29"
+  pages: "1605099"
+  doi: 10.1002/adma.201605099
+  type: article
+
+- title: "Inconsistencies in the Electronic Properties of Phosphorene Nanotubes: New Insights from Large-Scale DFT Calculations"
+  authors: "S. I. Allec, B. M. Wong"
+  journal: "The Journal of Physical Chemistry Letters"
+  year: 2016
+  volume: "7"
+  pages: "4340-4345"
+  doi: 10.1021/acs.jpclett.6b02271
+  type: article
+
+- title: "Unusual Bandgap Oscillations in Template-Directed π-Conjugated Porphyrin Nanotubes"
+  authors: "S. I. Allec, N. V. Ilawe, B. M. Wong"
+  journal: "The Journal of Physical Chemistry Letters"
+  year: 2016
+  volume: "7"
+  pages: "2362-2367"
+  doi: 10.1021/acs.jpclett.6b01020
+  type: article
+

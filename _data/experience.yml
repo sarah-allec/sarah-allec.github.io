@@ -1,0 +1,33 @@
+# Positions, newest first.
+- title: Materials Scientist
+  org: Pacific Northwest National Laboratory
+  org_url: https://www.pnnl.gov/
+  group: Materials Discovery Team
+  location: Richland, WA
+  start: "2024"
+  end: present
+  summary: >-
+    Research on active learning, uncertainty-aware machine learning, and atomistic modeling
+    for materials discovery, autonomous synthesis, and nuclear waste form design.
+
+- title: Research Scientist II
+  org: Citrine Informatics
+  org_url: https://citrine.io/
+  group: External Research Department
+  location: Remote
+  start: "2022"
+  end: "2024"
+  summary: >-
+    Materials informatics research on funded programs, including physics-informed machine learning
+    for glass design and multi-institutional data management for combinatorial materials science.
+
+- title: Postdoctoral Research Associate
+  org: Pacific Northwest National Laboratory
+  org_url: https://www.pnnl.gov/
+  group: Basic & Applied Molecular Foundations Group
+  location: Richland, WA
+  start: "2020"
+  end: "2022"
+  summary: >-
+    Computational design of carbon capture solvents and catalysts using ab initio molecular dynamics
+    and density functional theory.
