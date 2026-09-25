@@ -37,17 +37,27 @@ about:
     ways to solve problems in materials science and chemistry <em>in silico</em> in order to accelerate
     scientific discovery.
 
-interests:
+# Two tag rows under the research cards: how you work, and what you work on.
+methods:
   - Active learning
-  - Probabilistic machine learning
+  - Bayesian optimization
   - Uncertainty quantification
-  - Multi-scale modeling
-  - Machine-learned interatomic potentials
-  - Carbon capture
-  - Heterogeneous catalysis
-  - Surface chemistry
-  - Materials synthesis
+  - LLM agents
+  - Density functional theory
+  - Ab initio molecular dynamics
+  - Machine-learned potentials
+  - Multiscale modeling
+  - Data curation
+
+systems:
   - Nuclear waste glasses
+  - CO2 capture solvents
+  - Heterogeneous catalysts
+  - Amorphous oxides
+  - Water-in-salt electrolytes
+  - Solid-liquid interfaces
+  - Critical materials recovery
+  - Materials synthesis
 
 # Links shown in the header and contact section. Order matters.
 links:

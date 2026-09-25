@@ -26,13 +26,19 @@
       {%- endfor -%}
     </div>
     {%- endif -%}
-    {%- if p.interests.size > 0 -%}
-    <h3 class="label">Interests</h3>
-    <ul class="tags">
-      {%- for t in p.interests -%}
-      <li>{{ t }}</li>
-      {%- endfor -%}
-    </ul>
-    {%- endif -%}
+    <div class="tag-rows">
+      {%- if p.methods.size > 0 -%}
+      <div>
+        <h3 class="label">Methods</h3>
+        <ul class="tags">{%- for t in p.methods -%}<li>{{ t | replace: "CO2", "CO<sub>2</sub>" }}</li>{%- endfor -%}</ul>
+      </div>
+      {%- endif -%}
+      {%- if p.systems.size > 0 -%}
+      <div>
+        <h3 class="label">Systems</h3>
+        <ul class="tags">{%- for t in p.systems -%}<li>{{ t | replace: "CO2", "CO<sub>2</sub>" }}</li>{%- endfor -%}</ul>
+      </div>
+      {%- endif -%}
+    </div>
   </div>
 </section>

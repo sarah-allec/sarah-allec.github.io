@@ -159,6 +159,8 @@ main > .hero + .section { padding-top: 4rem; }
 .prose p:last-child { margin-bottom: 0; }
 .label { margin: 2.5rem 0 0.9rem; font-size: 0.8rem; font-family: var(--font-sans); font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: 0.1em; }
 .section-body > .label:first-child, .cols .label { margin-top: 0; }
+.tag-rows { display: grid; gap: 1.25rem; margin-top: 2.5rem; }
+.tag-rows .label { margin-top: 0; }
 .tags { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 0.4rem; }
 .tags li { font-size: 0.85rem; padding: 0.3rem 0.75rem; border-radius: var(--radius); background: var(--accent-soft); color: var(--accent-ink); border: 1px solid transparent; transition: border-color 120ms; }
 .tags li:hover { border-color: var(--accent); }
