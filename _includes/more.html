@@ -1,6 +1,6 @@
 <section class="section reveal" id="more">
   <div class="section-head">
-    <h2><span class="num">05</span>Talks, awards &amp; service</h2>
+    <h2><span class="num">05</span>Talks, tutorials, awards &amp; service</h2>
     <p class="lede">Beyond the papers.</p>
   </div>
   <div class="section-body">
@@ -10,7 +10,17 @@
         <h3 class="label">Invited talks</h3>
         <ul class="plain">
           {%- for t in site.data.talks -%}
-          <li><span class="item-title">{{ t.title }}</span><span class="item-meta">{{ t.event }}, {{ t.year }}</span></li>
+          <li><span class="item-title">{{ t.title }}</span><span class="item-meta">{{ t.event }}{% if t.location %}, {{ t.location }}{% endif %}, {{ t.year }}</span></li>
+          {%- endfor -%}
+        </ul>
+      </div>
+      {%- endif -%}
+      {%- if site.data.tutorials.size > 0 -%}
+      <div>
+        <h3 class="label">Tutorials</h3>
+        <ul class="plain">
+          {%- for t in site.data.tutorials -%}
+          <li><span class="item-title">{{ t.tutorial }}{% if t.part %} &mdash; {{ t.part }}{% endif %}</span><span class="item-meta">{{ t.event }}{% if t.location %}, {{ t.location }}{% endif %}, {{ t.year }}</span></li>
           {%- endfor -%}
         </ul>
       </div>

@@ -1,0 +1,8 @@
+# Tutorials and short courses led, newest first.
+# 'part' is the specific lecture/module I presented within a multi-instructor tutorial.
+- tutorial: "Deploying Agentic AI in Materials Characterization Workflows"
+  code: MT01
+  part: "The Agent Toolkit: Hybrid Models, Active Learning, and Theory-in-the-Loop"
+  event: Materials Research Society (MRS) Spring Meeting
+  location: Honolulu, HI
+  year: "2026"

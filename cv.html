@@ -79,9 +79,18 @@ permalink: /cv/
   <h2>Invited talks</h2>
   <ul class="plain">
     {%- for t in site.data.talks -%}
-    <li>{{ t.title }}. <span class="meta">{{ t.event }}, {{ t.year }}.</span></li>
+    <li>{{ t.title }}. <span class="meta">{{ t.event }}{% if t.location %}, {{ t.location }}{% endif %}, {{ t.year }}.</span></li>
     {%- endfor -%}
   </ul>
+
+  {%- if site.data.tutorials.size > 0 -%}
+  <h2>Tutorials</h2>
+  <ul class="plain">
+    {%- for t in site.data.tutorials -%}
+    <li><b>{{ t.tutorial }}</b>{% if t.code %} ({{ t.code }}){% endif %}.{% if t.part %} Presented &ldquo;{{ t.part }}&rdquo;.{% endif %} <span class="meta">{{ t.event }}{% if t.location %}, {{ t.location }}{% endif %}, {{ t.year }}.</span></li>
+    {%- endfor -%}
+  </ul>
+  {%- endif -%}
 
   <div class="two-col">
     <div>
